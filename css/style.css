@@ -1,0 +1,19 @@
+p{
+    color:red;
+
+}
+div{
+    color:blue;
+    margin: 10px;
+    border-radius: 100px;
+}
+input{
+    color:blue;
+
+    padding-left: 30px;
+    /*padding-right: 30px;*/
+    height:20px;
+    width: 60px;
+    line-height: 30px;
+    border-radius: 10px;
+}
