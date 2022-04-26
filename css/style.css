@@ -31,7 +31,47 @@ a{
 }
 .header{
     background: #444;
+    background-image: url(../img/dark_tint.png),url(../img/bokeh_car_lights_bg.jpg);
 }
 .nav ul li a:hover{
     color: #fff;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.10vw;
+    color: #fff;
+}
+.btn-gray{
+    background: #fff;
+    color: #444 !important;
+}
+.btn-big {
+  /*  padding: 20px 30px;*/
+    font-size: 2.5vw !important;
+}
+.btn-blue {
+    background: #3cadd4;
+    color: #fff !important;
+}
+.btn-dark {
+    background: #383b43;
+    color: #fff !important;
+}
+.banner-content{
+  text-align: center;
+    padding: 200px 0;
+}
+.banner-content h2{
+    font-size: 5vw;
+    color: #fff;
+    line-height:130px;
+}
+.banner-content p{
+    font-size: 1.5vw;
+    color: #fff;
+    margin-bottom: 50px;
 }
