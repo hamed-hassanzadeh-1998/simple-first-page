@@ -1,42 +1,76 @@
 @import url(font-awesome.min.css);
-*{
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/._Raleway-Italic-VariableFont_wght.ttf);
+}
+
+* {
     margin: 0;
 }
+
 body {
-    font-family: "Raleway",Helvetica,sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
     color: #444;
 }
-a{
+
+a {
     text-decoration: none;
-    /*color: #fff;*/
+    color: #fff;
 }
-.header h1{
+
+.header {
+    background: #444;
+    background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+}
+
+.top-menu {
+    padding: 40px;
+}
+
+.top-menu h1 {
     float: left;
+    color: #fff !important;
 }
-.nav{
+
+.nav {
     text-align: right;
 }
-.nav ul li{
+
+.nav ul li {
     display: inline;
-    margin:0 10px;
+    margin: 0 10px;
 
 }
-.nav ul li a{
-    color: rgba(255,255,255,0.5);
+
+.nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
     transition: color 0.3s ease-in-out;
 
 }
-.top-menu{
-    padding:40px;
-}
-.header{
-    background: #444;
-    background-image: url(../img/dark_tint.png),url(../img/bokeh_car_lights_bg.jpg);
-}
-.nav ul li a:hover{
+
+.nav ul li a:hover {
     color: #fff;
 }
-.btn{
+
+.banner-content {
+    text-align: center;
+    padding: 130px 0;
+}
+
+.banner-content h2 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 130px;
+}
+
+.banner-content p {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.btn {
     padding: 10px 20px;
     border-radius: 50px;
     border: 0;
@@ -44,34 +78,47 @@ a{
     text-align: center;
     font-size: 1.10vw;
     color: #fff;
+    font-family: "Raleway" !important;
 }
-.btn-gray{
+
+.btn-gray {
     background: #fff;
     color: #444 !important;
 }
+
 .btn-big {
-  /*  padding: 20px 30px;*/
-    font-size: 2.5vw !important;
+    padding: 17px 35px;
+    font-size: 20px !important;
 }
+
 .btn-blue {
     background: #3cadd4;
     color: #fff !important;
 }
+
 .btn-dark {
     background: #383b43;
     color: #fff !important;
 }
-.banner-content{
-  text-align: center;
-    padding: 200px 0;
+/*----- main conent start ------ */
+.services{
+    background: #f5f5f5;
+    border-bottom: 1px solid rgba(144,144,144,0.25);
+    border-top: 1px solid rgba(144,144,144,0.25);
+    padding:100px 0;
+    text-align: center;
 }
-.banner-content h2{
-    font-size: 5vw;
-    color: #fff;
-    line-height:130px;
+.services-header{
+    margin-top:50px;
 }
-.banner-content p{
-    font-size: 1.5vw;
-    color: #fff;
-    margin-bottom: 50px;
+.services-header h2{
+    font-size:42px;
+    color: #1d1f1d;
+    margin-bottom:12px;
+}
+.services-header p{
+    font-size:22px;
+    color:#858585;
+    margin-bottom:50px;
+
 }
